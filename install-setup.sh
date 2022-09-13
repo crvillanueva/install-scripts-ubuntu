@@ -1,6 +1,6 @@
 # Setup for installings packages
 
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 
 sudo apt install curl git -y
 
