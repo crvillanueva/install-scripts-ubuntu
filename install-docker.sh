@@ -15,3 +15,4 @@ sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 
 docker run hello-world
+rm get-docker.sh
