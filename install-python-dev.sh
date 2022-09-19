@@ -5,13 +5,6 @@ sudo apt-get install python3 -y
 sudo apt-get install python3-dev -y
 sudo apt-get install python3-venv -y
 
-# Install poetry
-# https://python-poetry.org/docs/
-curl -sSL https://install.python-poetry.org | python3 -
-
-echo "# Poetry PATH" >> ~/.bashrc
-echo 'export PATH="/home/crvillanueva/.local/bin:$PATH"' >> ~/.bashrc
-
 # Install aditional Python versions
 sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:deadsnakes/ppa -y
@@ -29,3 +22,11 @@ sudo apt-get install python3.9 -y
 sudo apt-get install python3.9-dev -y
 sudo apt-get install python3.9-venv -y
 
+# Install poetry
+# https://python-poetry.org/docs/
+curl -sSL https://install.python-poetry.org | python3 -
+
+echo "# Poetry PATH" >> ~/.bashrc
+echo 'export PATH="/home/crvillanueva/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+poetry --version
