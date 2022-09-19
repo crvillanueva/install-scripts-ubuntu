@@ -5,4 +5,5 @@ sudo tar -C /usr/local -xzf go1.19.1.linux-amd64.tar.gz
 printf "\nexport PATH=$PATH:/usr/local/go/bin\n" >> ~/.bashrc
 
 # check Go version
+source ~/.bashrc
 go version

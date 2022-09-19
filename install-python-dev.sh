@@ -2,21 +2,21 @@
 
 #  Install Python development tools
 
-sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt-get update
 
-sudo apt-get install python3.7
-sudo apt-get install python3.7-dev
-sudo apt-get install python3.7-venv
+sudo apt-get install python3.7 -y
+sudo apt-get install python3.7-dev -y
+sudo apt-get install python3.7-venv -y
 
-sudo apt-get install python3.8
-sudo apt-get install python3.8-dev
-sudo apt-get install python3.8-venv
+sudo apt-get install python3.8 -y
+sudo apt-get install python3.8-dev -y
+sudo apt-get install python3.8-venv -y
 
-sudo apt-get install python3.9
-sudo apt-get install python3.9-dev
-sudo apt-get install python3.9-venv
+sudo apt-get install python3.9 -y
+sudo apt-get install python3.9-dev -y
+sudo apt-get install python3.9-venv -y
 
 # Install poetry
 # https://python-poetry.org/docs/
