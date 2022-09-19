@@ -10,7 +10,7 @@ sudo apt-get install python3-venv -y
 curl -sSL https://install.python-poetry.org | python3 -
 
 echo "# Poetry PATH" >> ~/.bashrc
-echo 'export PATH="/home/crvillanueva/.local/bin:$PATH' >> ~/.bashrc
+echo 'export PATH="/home/crvillanueva/.local/bin:$PATH"' >> ~/.bashrc
 
 # Install aditional Python versions
 sudo apt-get install software-properties-common -y
