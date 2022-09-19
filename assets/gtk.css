@@ -1,0 +1,11 @@
+@define-color backdrop_color #2d2d2d;
+@define-color standout_color #A020F0;
+
+/* title/headerbar colors */
+headerbar.titlebar {
+  background: @standout_color;
+}
+headerbar.titlebar:backdrop {
+  background: @backdrop_color;
+}
+

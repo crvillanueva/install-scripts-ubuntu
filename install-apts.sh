@@ -1,11 +1,7 @@
+sudo apt update -y && sudo apt upgrade -y
 
-sudo apt install bat -y
-sudo apt install exa -y
-sudo apt install duf -y
-sudo apt install neofetch -y
+APTS_LIST=("bat" "exa" "duf" "neofetch")
 
-# obs
-sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt update
-sudo apt install obs-studio -y
-
+for app in ${APTS_LIST[@]}; do
+  sudo apt install $app -y
+done

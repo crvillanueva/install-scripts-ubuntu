@@ -14,3 +14,4 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # install deb-get
 curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
 
+sudo reboot

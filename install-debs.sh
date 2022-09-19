@@ -1,3 +1,6 @@
+# install deb-get
+curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
+
 # install libraries
 deb-get install anydesk
 deb-get install azuredatastudio
@@ -9,10 +12,11 @@ deb-get install duf
 deb-get install du-dust
 deb-get install flameshot
 deb-get install trivy
-deb-get install zoom
 deb-get install teams
 deb-get install obsidian
+deb-get install obs-studio
+deb-get install powershell
+deb-get install zoom
 
 # other debs
 # https://links.fortinet.com/forticlient/deb/vpnagent
-
