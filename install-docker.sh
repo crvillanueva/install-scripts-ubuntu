@@ -1,6 +1,6 @@
 # Install docker
 curl -fsSL https://get.docker.com -o get-docker.sh
-./get-docker.sh
+sudo ./get-docker.sh
 
 # Run docker without sudo
 sudo groupadd docker
