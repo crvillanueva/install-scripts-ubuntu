@@ -9,6 +9,7 @@ then
     echo "Continuing..."
     ./install-*.sh
     ./config-*.sh
+    ./post-install.sh
 else
     echo "Exiting..."
     exit 1
