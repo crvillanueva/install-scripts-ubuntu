@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# Compile all installation scripts in correct order.
+# Run all installation scripts in the correct order.
+
 read -p "Did you run pre-install.sh? [y/n] " -n 1 -r
 
 # if y then continue
