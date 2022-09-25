@@ -6,6 +6,7 @@ deb-get install anydesk
 deb-get install azuredatastudio
 deb-get install brave-browser
 deb-get install code
+deb-get install insomnia
 deb-get install bitwarden
 deb-get install dbeaver-ce
 deb-get install duf
