@@ -14,7 +14,13 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Primary>
 gsettings set org.gnome.settings-daemon.plugins.media-keys www "['<Super>f']"
 gsettings set org.gnome.desktop.wm.keybindings close "['<Shift><Super>c']"
 
+# power settings
+gsettings set org.gnome.desktop.session idle-delay uint32 0
+
 # gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/ name '<testcustomkeyboard>'
 # gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/ command '<code>'
 # gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/ binding '<Control><Alt>ñ'
+
+# give color to active window
 cp ./assets/gtk.css ~/.config/gtk-3.0/gtk.css
+
