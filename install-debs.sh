@@ -12,6 +12,7 @@ deb-get install dbeaver-ce
 deb-get install duf
 deb-get install du-dust
 deb-get install flameshot
+deb-get install foliate
 deb-get install trivy
 deb-get install teams
 deb-get install obsidian
